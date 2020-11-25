@@ -1,0 +1,100 @@
+<script>
+        window.cnblogsConfig = {
+            GhVersions    : 'v1.3.3',
+            blogUser      : "二次蓝",
+            blogAvatar    : "https://pic.cnblogs.com/face/2224860/20201124182444.png",
+            blogStartDate : "2020-11-24",
+            // 图标地址：https://www.easyicon.net/1293299-pencil_case_icon.html
+            webpageIcon: "https://www.easyicon.net/download/ico/1293299/32/",
+            menuUserInfoBgImg: 'https://cdn.jsdelivr.net/gh/Ercilan/MyBlog@master/img/me_left_top_3.webp',
+            webpageTitleOnblur: '(oﾟvﾟ)ノ Hi 快看这个神奇的标签',
+            homeTopImg: [ // 首页顶部
+                "https://cdn.jsdelivr.net/gh/Ercilan/MyBlog@master/img/home_top_bg_1.webp",
+                "https://cdn.jsdelivr.net/gh/Ercilan/MyBlog@master/img/home_top_bg_2.webp"
+            ],
+            essayTopImg: [ // 文章顶部图片，推荐尺寸>= 1920*600
+                "https://cdn.jsdelivr.net/gh/Ercilan/MyBlog@master/img/article_top_bg_1.webp",
+            ],
+            // homeBannerText: [
+            //     "每天朝着目标前进一点点",
+            //     "好记性真不如烂笔头",
+            //     "好记性真不如烂笔头",
+            // ],
+            // 不设置则自动获取一言
+            //homeBannerTextType: "one",
+            switchDayNight: {
+                enable: true,
+                auto: {
+                    enable: true,
+                    dayHour: 5,
+                    nightHour: 23
+                }
+            },
+            progressBar: {height: '4px'}, // 进度条设置
+            menuNavList: [ // 左侧导航
+                ['我的博客', 'https://www.cnblogs.com/ercilan/', 'icon-hot'],
+                ['GitHub', 'https://github.com/Ercilan/', 'icon-github'],
+            ],
+            menuCustomList: { // 左侧下面导航
+                "title1": { // 标题
+                    "data": [ // 列表数据 ['列表', '链接']
+                        ['我的博客1', 'https://www.cnblogs.com/ercilan/'],
+                        ['我的博客2', 'https://www.cnblogs.com/ercilan/'],
+                    ],
+                    "icon": "icon-brush_fill" // 配置图标，参考文档：定制化/字体图标库
+                }
+            },
+            
+            //essayTitleStyle: true, // 设置文章内容标题样式
+            codeLineNumber: true, // 渲染行号
+            /* // 文章后缀配置
+            essaySuffix: {
+                codeImgUrl   : '', // >= v1.1.5 左侧图片设置，不配置使用 window.cnblogsConfig.blogAvatar
+                aboutHtml    : '', // 关于博主，不配置使用默认
+                copyrightHtml: '', // 版权声明，不配置使用默认
+                supportHtml  : '', // 声援博主，不配置使用默认
+            },*/
+            essaySuffix: {
+                copyrightHtml: '本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" alt="BY-NC-SA" title="BY-NC-SA" target="_blank">BY-NC-SA</a> 许可协议。<span class="color:red;font-weight:bold;">转载请注明出处</span>！',
+                aboutHtml: "哈喽，我是二次蓝，一个正在学习中的好孩子",
+            },
+            loading: {
+                rebound: {
+                    tension: 50,
+                    friction: 8
+                },
+                spinner: {
+                    id: 'spinner',
+                    radius: 80,
+                    sides: 4,
+                    depth: 3,
+                    colors: {
+                        background: '#f0f0f0',
+                        stroke: '#272633',
+                        base: null,
+                        child: '#4195EC'
+                    },
+                    alwaysForward: true, // When false the spring will reverse normally.
+                    restAt: 0.5, // A number from 0.1 to 0.9 || null for full rotation
+                    renderBase: false // Optionally render basePolygon
+                }
+            },
+            bottomText: {
+                iconFont: {  // v1.3.0 新增配置
+                    icon:  "icon-xl", // iconfont 图标名称
+                    color: "red",     // 图标颜色
+                    fontSize: "16px"  // 图标大小
+                },
+                left : "有一天",
+                right: "有一秒"
+            },
+            consoleList: [
+                ['欢迎来到我的博客~~', 'https://www.cnblogs.com/ercilan'],
+                ['二次蓝 GitHub', 'https://github.com/Ercilan/'],
+                ['二次蓝 Email', 'ercilan@163.com'],
+            ],
+            advertising: false, // 是否显示博客园广告
+        }
+    console.log('欢迎你的访问~');
+</script>
+<script src="https://cdn.jsdelivr.net/gh/BNDong/Cnblogs-Theme-SimpleMemory@v1.3.3/src/script/simpleMemory.min.js" defer></script>
