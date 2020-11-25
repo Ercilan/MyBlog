@@ -91,10 +91,10 @@ if (initCheck()) {
         '<div id="rightMenu"></div>';
 
     window.cnblogsConfigDefault = {
-        GhUserName: 'BNDong',
-        GhRepositories: 'Cnblogs-Theme-SimpleMemory',
-        GhVersions: 'v1.3.0',
-        CnVersions: "",
+        GhUserName: 'Ercilan',
+        GhRepositories: 'MyBlog',
+        GhVersions: 'master',
+        CnVersions: "v1.3.0",
         blogUser: "二次蓝",
         blogAvatar: "https://pic.cnblogs.com/face/2224860/20201124182444.png",
         blogStartDate: "2020-11-24",
