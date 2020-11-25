@@ -186,12 +186,15 @@ if (initCheck()) {
         },
         homeTopImg: [ // 首页顶部
             "https://cdn.jsdelivr.net/gh/Ercilan/MyBlog@master/img/home_top_bg_1.webp",
-            "https://cdn.jsdelivr.net/gh/Ercilan/MyBlog@master/img/home_top_bg_2.webp"
+            "https://cdn.jsdelivr.net/gh/Ercilan/MyBlog@master/img/home_top_bg_2.webp",
+            "https://cdn.jsdelivr.net/gh/Ercilan/MyBlog@master/img/home_top_bg_3.webp",
+            "https://cdn.jsdelivr.net/gh/Ercilan/MyBlog@master/img/home_top_bg_4.jpg",
         ],
         homeBannerText: "",
         homeBannerTextType: "jinrishici",
         essayTopImg: [ // 文章顶部图片，推荐尺寸>= 1920*600
             "https://cdn.jsdelivr.net/gh/Ercilan/MyBlog@master/img/article_top_bg_1.webp",
+            "https://cdn.jsdelivr.net/gh/Ercilan/MyBlog@master/img/article_top_bg_2.webp",
         ],
         essayCodeHighlightingType: 'cnblogs',
         essayCodeHighlighting: '',
