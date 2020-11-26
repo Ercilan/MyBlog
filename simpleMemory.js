@@ -190,6 +190,8 @@ if (initCheck()) {
             "https://cdn.jsdelivr.net/gh/Ercilan/MyBlog@master/img/home_top_bg_2.webp",
             "https://cdn.jsdelivr.net/gh/Ercilan/MyBlog@master/img/home_top_bg_3.webp",
             "https://cdn.jsdelivr.net/gh/Ercilan/MyBlog@master/img/home_top_bg_4.jpg",
+            "https://cdn.jsdelivr.net/gh/Ercilan/MyBlog@master/img/home_top_bg_5.webp",
+            "https://cdn.jsdelivr.net/gh/Ercilan/MyBlog@master/img/home_top_bg_6.webp",
         ],
         homeBannerText: "",
         homeBannerTextType: "jinrishici",
@@ -210,7 +212,7 @@ if (initCheck()) {
         essaySuffix: {
             codeImgUrl: '',
             copyrightHtml: '',
-            aboutHtml: "哈喽，我是二次蓝，一个正在学习中的好孩子",
+            aboutHtml: "我是二次蓝，我是一个正在学习中的好孩子",
             supportHtml: ''
         },
         bottomBlogroll: [],
