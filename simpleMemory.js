@@ -71,7 +71,7 @@ if (initCheck()) {
         '    <div class="content-wrap" id="content-wrap"></div><!-- /content-wrap -->' +
         '</div>' +
         '<div class="main-header">' + 
-        '    <div id="main-header-background"></div>' +
+        '    <div class="main-header-background"></div>' +
         '    <canvas id="notHomeTopCanvas"></canvas>' +
         '    <div class="vertical">' +
         '        <div class="main-header-content inner">' +
