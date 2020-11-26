@@ -1,4 +1,8 @@
 /* 本文件使用时需进行代码压缩 */
+html,body {
+	cursor: url('https://cdn.jsdelivr.net/gh/Ercilan/MyBlog@master/img/cursor.cur'), auto;
+}
+
 *,.Cal {
 	padding: 0
 }
@@ -2487,9 +2491,9 @@ div#tbCommentBodyPreview {
 	margin: 0 0 24px;
 	padding: 1.45em;
 	color: #313131;
-	background-color: #f7f7f7;
 	font-size: 14px;
-	border-left: 4px solid #ddd;
+	border-left: 3px solid #bcbaba !important;
+	background-color: #f3f3f3 !important;
 	font-weight: 400;
 	border-top: 0;
 	border-right: 0;
