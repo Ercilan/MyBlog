@@ -100,7 +100,7 @@ if (initCheck()) {
         blogAvatar: "https://pic.cnblogs.com/face/2224860/20201124182444.png",
         blogStartDate: "2020-11-24",
         menuCustomList: { // 左侧下面导航
-            "title1": { // 标题
+            "书签组": { // 标题
                 "data": [ // 列表数据 ['列表', '链接']
                     ['我的博客1', 'https://www.cnblogs.com/ercilan/'],
                     ['我的博客2', 'https://www.cnblogs.com/ercilan/'],
@@ -209,7 +209,7 @@ if (initCheck()) {
         essayTitleStyle: false,
         essaySuffix: {
             codeImgUrl: '',
-            copyrightHtml: '本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" alt="BY-NC-SA" title="BY-NC-SA" target="_blank">BY-NC-SA</a> 许可协议。<span class="color:red;font-weight:bold;">转载请注明出处</span>！',
+            copyrightHtml: '',
             aboutHtml: "哈喽，我是二次蓝，一个正在学习中的好孩子",
             supportHtml: ''
         },

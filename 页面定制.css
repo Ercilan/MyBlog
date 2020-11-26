@@ -2188,7 +2188,8 @@ div#tbCommentBodyPreview {
 
 .main-header-background {
     position: absolute;
-    width: 100vw;
+	width: 100vw;
+	height: 100%
 }
 
 .inner {
