@@ -3,7 +3,7 @@
  * https://www.cnblogs.com/bndong/
  * @author: BNDong, dbnuo@foxmail.com
  **/
-
+if (initCheck()) {
 var sidebarHtml =
     '<div class="container">' +
     '    <div class="menu-wrap optiscroll" id="menuWrap" style="display:none">' +
@@ -291,8 +291,26 @@ window.cnblogsConfigDefault.hook = {
 
 window.cnblogsConfig = $.extend(true, window.cnblogsConfigDefault, window.cnblogsConfig);
 getVersionConfig();
+} else {
 
+    $('a[name="top"]').text("SimpleMemory：基础配置有误，请阅读文档，检查配置！").css({
+        'display': 'block', 'text-align': 'center', 'padding-top': '45vh', 'font-size': '20px', 'color': '#333'
+    });
+}
 
+// init check
+function initCheck() {
+
+    // check base theme
+    var baseStyle = $('#mobile-style').attr('href');
+    if (typeof baseStyle != 'undefined') {
+        var bt = baseStyle.split('/');
+        if($.inArray('SimpleMemory', bt) !== -1) {
+            return true;
+        }
+    }
+    return false;
+}
 
 
 
