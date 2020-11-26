@@ -988,7 +988,7 @@ div#tbCommentBodyPreview {
 
 #comment_form_container p {
 	font-size: 14px;
-	margin-bottom: 20px
+	margin-bottom: 0px
 }
 
 .commentbox_title_left {
@@ -1030,7 +1030,8 @@ div#tbCommentBodyPreview {
 }
 
 .comment_btn:hover {
-	background: #71ace5
+	background: #71ace5;
+	cursor: pointer
 }
 
 .PostListTitle,.entrylistTitle,.thumbTitle {
@@ -2536,7 +2537,7 @@ blockquote p {
 	text-align: center;
 	position: relative;
 	bottom: 16px;
-	border-bottom: 1px dashed #e9e9e9
+	border-bottom: 3px dashed #e9e9e9
 }
 
 .entrylistTitle:after {
@@ -2957,7 +2958,7 @@ div#rightMenu>div {
 	top: 1px
 }
 
-#header,#leftcontentcontainer,#profile_block,.catListTitle,#comment_nav {
+#header,#leftcontentcontainer,#profile_block,.catListTitle,#comment_nav,.under-comment-nav.under-comment-box-nav {
 	display: none!important
 }
 

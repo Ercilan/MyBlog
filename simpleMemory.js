@@ -117,7 +117,7 @@ if (initCheck()) {
         webpageTitleOnblurTimeOut: 500,
         webpageTitleFocus: "(*´∇｀*) 欢迎回来！",
         webpageTitleFocusTimeOut: 1000,
-        webpageIcon: "",
+        webpageIcon: "https://cdn.jsdelivr.net/gh/Ercilan/MyBlog@master/img/favicon.ico",
         fontIconExtend: "",
         progressBar: {
             id: 'top-progress-bar',
@@ -207,7 +207,7 @@ if (initCheck()) {
             fontSize: "14px",
         },
         codeMaxHeight: false,
-        codeLineNumber: true, // 渲染行号
+        codeLineNumber: false, // 渲染行号
         essayTitleStyle: false,
         essaySuffix: {
             codeImgUrl: '',
@@ -217,7 +217,7 @@ if (initCheck()) {
         },
         bottomBlogroll: [],
         bottomText: {
-            iconFont: {  // v1.3.0 新增配置
+            iconFont: {
                 icon: "icon-xl", // iconfont 图标名称
                 color: "red",     // 图标颜色
                 fontSize: "16px"  // 图标大小
