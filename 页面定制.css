@@ -257,10 +257,7 @@ b {
 }
 
 #main {
-	margin-top: 30px
-}
-
-#main {
+	margin-top: 30px;
 	width: 100%;
 	text-align: left
 }
