@@ -94,7 +94,7 @@ if (initCheck()) {
     window.cnblogsConfigDefault = {
         GhUserName: 'Ercilan',
         GhRepositories: 'Cnblogs-Theme-SimpleMemory',
-        GhVersions: 'v1.3.3',
+        GhVersions: 'dev',
         CnVersions: "",
         blogUser: "二次蓝",
         blogAvatar: "https://pic.cnblogs.com/face/2224860/20201124182444.png",
