@@ -188,10 +188,10 @@ if (initCheck()) {
         homeTopImg: [ // 首页顶部
             "https://cdn.jsdelivr.net/gh/Ercilan/MyBlog@master/img/home_top_bg_1.webp",
             "https://cdn.jsdelivr.net/gh/Ercilan/MyBlog@master/img/home_top_bg_2.webp",
-            "https://cdn.jsdelivr.net/gh/Ercilan/MyBlog@master/img/home_top_bg_3.webp",
-            "https://cdn.jsdelivr.net/gh/Ercilan/MyBlog@master/img/home_top_bg_4.jpg",
+            "https://cdn.jsdelivr.net/gh/Ercilan/MyBlog@master/img/home_top_bg_3.jpg",
+            "https://cdn.jsdelivr.net/gh/Ercilan/MyBlog@master/img/home_top_bg_4.webp",
             "https://cdn.jsdelivr.net/gh/Ercilan/MyBlog@master/img/home_top_bg_5.webp",
-            "https://cdn.jsdelivr.net/gh/Ercilan/MyBlog@master/img/home_top_bg_6.webp",
+            "https://cdn.jsdelivr.net/gh/Ercilan/MyBlog@master/img/home_top_bg_6.jpg",
         ],
         homeBannerText: "",
         homeBannerTextType: "jinrishici",
