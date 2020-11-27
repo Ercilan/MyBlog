@@ -193,6 +193,7 @@ window.cnblogsConfigDefault = {
         "https://cdn.jsdelivr.net/gh/Ercilan/MyBlog@master/img/home_top_bg_6.jpg",
         "https://cdn.jsdelivr.net/gh/Ercilan/MyBlog@master/img/home_top_bg_7.jpg",
         "https://cdn.jsdelivr.net/gh/Ercilan/MyBlog@master/img/home_top_bg_8.jpg",
+        "https://cdn.jsdelivr.net/gh/Ercilan/MyBlog@master/img/home_top_bg_9.jpg",
     ],
     homeBannerText: "",
     homeBannerTextType: "jinrishici",
