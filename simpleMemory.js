@@ -223,8 +223,8 @@ window.cnblogsConfigDefault = {
             color: "red",     // 图标颜色
             fontSize: "16px"  // 图标大小
         },
-        left: "有一天",
-        right: "有一秒"
+        left: "",
+        right: ""
     },
     footerStyle: 2,
     consoleList: [
