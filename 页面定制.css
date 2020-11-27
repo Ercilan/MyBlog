@@ -722,8 +722,8 @@ p.article-info-text>.postMeta i {
 	width: 100%;
 	min-height: 200px;
 	padding: 0 0 10px;
+	float: none;
 	-o-text-overflow: ellipsis;
-	margin: 4rem auto;
 	font-family: -apple-system,SF UI Text,Arial,PingFang SC,Hiragino Sans GB,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif;
 	margin-top: 15px
 }
@@ -771,12 +771,11 @@ p.article-info-text>.postMeta i {
 }
 
 #topics .postDesc {
-	padding-left: 0;
-	width: 100%;
-	text-align: left;
-	color: #666;
-	margin-top: 5px;
-	background: 0
+	display: none !important
+}
+
+#post_next_prev {
+    font-size: 14px;
 }
 
 .feedback_area_title {
@@ -1013,6 +1012,24 @@ div#tbCommentBodyPreview {
 	font-size: 14px;
 	margin-bottom: 0px;
 	display: none
+}
+
+.login_tips, .under-comment-nav {
+	margin: 0;
+    margin-top: 10px;
+    font-weight: bold;
+    /* visibility: hidden; */
+    border: 1px solid #53a6ff;
+    border-radius: 3px;
+    padding: 10px 35px;
+    box-shadow: inset 1px 1px 1px rgba(0,0,0,.075),0 0 4px rgba(82,168,236,.6);
+    -moz-box-shadow: inset 1px 1px 1px rgba(0,0,0,.075),0 0 4px rgba(82,168,236,.6);
+	-webkit-box-shadow: inset 1px 1px 1px rgba(0,0,0,.075),0 0 4px rgba(82,168,236,.6);
+	background: none
+}
+.under-comment-nav {
+    border: 1px solid #ff9f90;
+    font-weight: normal
 }
 
 #commentbox_opt {
@@ -2203,7 +2220,7 @@ div#tbCommentBodyPreview {
 }
 
 .postBody p,.postCon p {
-	margin: 0 auto 1em
+	margin: 0 auto !important
 }
 
 .postCon a:active,.postCon a:link,.postCon a:visited {
@@ -2561,7 +2578,7 @@ div#tbCommentBodyPreview {
 	border-top: 0;
 	border-right: 0;
 	border-bottom: 0;
-	min-height: 0;
+	min-height: 0 !important;
 	background-image: none !important
 }
 
