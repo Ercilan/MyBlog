@@ -394,7 +394,7 @@ b {
 
 .postTitle {
 	font-size: 20px;
-	float: right
+	float: left
 }
 
 .postTitle a:active,.postTitle a:visited {
@@ -735,6 +735,15 @@ p.article-info-text>.postMeta i {
 	line-height: 1.5;
 	width: 100%;
 	padding-left: 5px
+}
+.day .postTitle {
+	border-left: none;
+}
+.day .postTitle a:hover {
+	margin-left: 0px;
+}
+.day .postTitle a {
+	padding-left: 0px
 }
 
 #BlogPostCategory,#BlogPostCategory a:active,#BlogPostCategory a:link,#BlogPostCategory a:visited,#EntryTag,#EntryTag a:active,#EntryTag a:link,#EntryTag a:visited {
