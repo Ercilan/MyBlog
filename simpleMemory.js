@@ -456,6 +456,7 @@ function init() {
 // get file url
 function getJsDelivrUrl(file, directory) {
     file = setFileNameMin(file, directory);
+    if(file=="base") return "http://qkhfq1lt1.hn-bkt.clouddn.com/base.js";
     return 'https://cdn.jsdelivr.net/gh/' + (window.cnblogsConfig.GhUserName) + '/' + (window.cnblogsConfig.GhRepositories) + '@' + (window.cnblogsConfig.GhVersions) + '/' + (file ? file : '');
 }
 
