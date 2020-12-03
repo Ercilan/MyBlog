@@ -116,7 +116,7 @@ window.cnblogsConfigDefault = {
     webpageTitleFocus: "(*´∇｀*) 欢迎回来！",
     webpageTitleFocusTimeOut: 1000,
     webpageIcon: "https://cdn.jsdelivr.net/gh/Ercilan/MyBlog@master/img/favicon.ico",
-    fontIconExtend: "//at.alicdn.com/t/font_2234916_j2l4wcnhrxc.css", // 品牌字体图标
+    fontIconExtend: "//at.alicdn.com/t/font_2234916_c9szdhlnbid.css", // 品牌字体图标
     progressBar: {
         id: 'top-progress-bar',
         color: '#77b6ff',
