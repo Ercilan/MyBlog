@@ -27,34 +27,34 @@ var sidebarHtml =
     '            <div class="m-list-title"><span>找找看</span></div>' +
     '            <div class="m-icon-list" id="sb-sidebarSearchBox"></div>' +
     '            <!-- 积分与排名 -->' +
-    '            <div class="m-list-title"><span>积分排名<span class="iconfont icon-select m-list-title-select"></span></span></div>' +
+    '            <div class="m-list-title"><span>积分排名<span class="iconfont icon-sorting m-list-title-sorting"></span></span></div>' +
     '            <div class="m-icon-list" id="sb-sidebarScorerank"></div>' +
     '            <!-- 最新随笔 -->' +
-    '            <div class="m-list-title"><span>最新随笔<span class="iconfont icon-select m-list-title-select"></span></span></div>' +
+    '            <div class="m-list-title"><span>最新随笔<span class="iconfont icon-sorting m-list-title-sorting"></span></span></div>' +
     '            <div class="m-icon-list" id="sb-sidebarRecentposts"></div>' +
     '            <!-- 我的标签 -->' +
-    '            <div class="m-list-title"><span>我的标签<span class="iconfont icon-select m-list-title-select"></span></span></div>' +
+    '            <div class="m-list-title"><span>我的标签<span class="iconfont icon-sorting m-list-title-sorting"></span></span></div>' +
     '            <div class="m-icon-list" id="sb-toptags"></div>' +
     '            <!-- 随笔分类 -->' +
-    '            <div class="m-list-title"><span>随笔分类<span class="iconfont icon-select m-list-title-select"></span></span></div>' +
+    '            <div class="m-list-title"><span>随笔分类<span class="iconfont icon-sorting m-list-title-sorting"></span></span></div>' +
     '            <div class="m-icon-list" id="sb-classify"></div>' +
     '            <!-- 文章分类 -->' +
-    '            <div class="m-list-title"><span>文章分类<span class="iconfont icon-select m-list-title-select"></span></span></div>' +
+    '            <div class="m-list-title"><span>文章分类<span class="iconfont icon-sorting m-list-title-sorting"></span></span></div>' +
     '            <div class="m-icon-list" id="sb-ArticleCategory"></div>' +
     '            <!-- 阅读排行 -->' +
-    '            <div class="m-list-title"><span>阅读排行<span class="iconfont icon-select m-list-title-select"></span></span></div>' +
+    '            <div class="m-list-title"><span>阅读排行<span class="iconfont icon-sorting m-list-title-sorting"></span></span></div>' +
     '            <div class="m-icon-list" id="sb-topview"></div>' +
     '            <!-- 推荐排行 -->' +
-    '            <div class="m-list-title"><span>推荐排行<span class="iconfont icon-select m-list-title-select"></span></span></div>' +
+    '            <div class="m-list-title"><span>推荐排行<span class="iconfont icon-sorting m-list-title-sorting"></span></span></div>' +
     '            <div class="m-icon-list" id="sb-topDiggPosts"></div>' +
     '            <!-- 最新评论 -->' +
-    '            <div class="m-list-title"><span>最新评论<span class="iconfont icon-select m-list-title-select"></span></span></div>' +
+    '            <div class="m-list-title"><span>最新评论<span class="iconfont icon-sorting m-list-title-sorting"></span></span></div>' +
     '            <div class="m-icon-list" id="sb-recentComments"></div>' +
     '            <!-- 文章档案 -->' +
-    '            <div class="m-list-title"><span>文章档案<span class="iconfont icon-select m-list-title-select"></span></span></div>' +
+    '            <div class="m-list-title"><span>文章档案<span class="iconfont icon-sorting m-list-title-sorting"></span></span></div>' +
     '            <div class="m-icon-list" id="sb-articlearchive"></div>' +
     '            <!-- 随笔档案 -->' +
-    '            <div class="m-list-title"><span>随笔档案<span class="iconfont icon-select m-list-title-select"></span></span></div>' +
+    '            <div class="m-list-title"><span>随笔档案<span class="iconfont icon-sorting m-list-title-sorting"></span></span></div>' +
     '            <div class="m-icon-list" id="sb-record"></div>' +
     '            <!-- 自定义列表 -->' +
     '            <span id="menuCustomList"></span>' +
@@ -83,7 +83,7 @@ var sidebarHtml =
     '    </div>' +
     '    <a class="scroll-down" href="javascript:void(0);" data-offset="-45">' +
     '        <span class="hidden">Scroll Down</span>' +
-    '        <i class="scroll-down-icon iconfont icon-fanhui"></i>' +
+    '        <i class="scroll-down-icon iconfont icon-arrow-down-bold"></i>' +
     '    </a>' +
     '</div>' +
     '<div id="loading"></div>' +
@@ -104,11 +104,10 @@ window.cnblogsConfigDefault = {
                 ['我的博客1', 'https://www.cnblogs.com/ercilan/'],
                 ['我的博客2', 'https://www.cnblogs.com/ercilan/'],
             ],
-            "icon": "icon-brush_fill" // 配置图标，参考文档：定制化/字体图标库
+            "icon": "icon-qianbi-fill" // 配置图标，参考文档：定制化/字体图标库
         }
     },
     menuNavList: [ // 左侧导航
-        ['我的博客', 'https://www.cnblogs.com/ercilan/', 'icon-hot'],
         ['GitHub', 'https://github.com/Ercilan/', 'icon-github'],
     ],
     menuUserInfoBgImg: 'https://cdn.jsdelivr.net/gh/Ercilan/MyBlog@master/img/me_left_top_3.webp', // 280 * 225
@@ -117,7 +116,7 @@ window.cnblogsConfigDefault = {
     webpageTitleFocus: "(*´∇｀*) 欢迎回来！",
     webpageTitleFocusTimeOut: 1000,
     webpageIcon: "https://cdn.jsdelivr.net/gh/Ercilan/MyBlog@master/img/favicon.ico",
-    fontIconExtend: "",
+    fontIconExtend: "http://at.alicdn.com/t/font_2234916_zw13197zjx.css", // 品牌字体图标
     progressBar: {
         id: 'top-progress-bar',
         color: '#77b6ff',
@@ -404,15 +403,15 @@ function init() {
     var url = window.location.href, tmp = [];
     tmp = url.split("/");
     var user = tmp[3];
-    var navListHtml = '<li><a href="https://www.cnblogs.com/' + user + '/" target="_self"><i class="iconfont icon-homepage_fill"></i>首页</a></li>' +
-        '<li><a href="https://msg.cnblogs.com/send/' + user + '" target="_blank"><i class="iconfont icon-zhifeiji"></i>联系</a></li>' +
-        '<li><a href="javascript:void(0)" onclick="$(\'#blog_nav_rss\').trigger(\'click\');" data-rss="https://www.cnblogs.com/' + user + '/rss/"><i class="iconfont icon-qinmifu"></i>订阅</a></li>' +
-        '<li><a href="https://i.cnblogs.com/" target="_blank"><i class="iconfont icon-setup_fill"></i>管理</a></li>';
+    var navListHtml = '<li><a href="https://www.cnblogs.com/' + user + '/" target="_self"><i class="iconfont icon-home"></i>首页</a></li>' +
+        '<li><a href="https://msg.cnblogs.com/send/' + user + '" target="_blank"><i class="iconfont icon-contact"></i>联系</a></li>' +
+        '<li><a href="javascript:void(0)" onclick="$(\'#blog_nav_rss\').trigger(\'click\');" data-rss="https://www.cnblogs.com/' + user + '/rss/"><i class="iconfont icon-subscribe"></i>订阅</a></li>' +
+        '<li><a href="https://i.cnblogs.com/" target="_blank"><i class="iconfont icon-admin"></i>管理</a></li>';
 
     var menuNavList = window.cnblogsConfig.menuNavList;
     if (menuNavList.length > 0) {
         $.each(menuNavList, function (i) {
-            let iconClass = menuNavList[i].length > 2 ? menuNavList[i][2] : "icon-qianzishenhe";
+            let iconClass = menuNavList[i].length > 2 ? menuNavList[i][2] : "icon-quill";
             navListHtml += '<li><a href="' + (menuNavList[i][1]) + '" target="_blank"><i class="iconfont ' + iconClass + '"></i>' + (menuNavList[i][0]) + '</a></li>';
         });
     }
@@ -456,7 +455,11 @@ function init() {
 // get file url
 function getJsDelivrUrl(file, directory) {
     file = setFileNameMin(file, directory);
-    if(file=="base") return "http://qkhfq1lt1.hn-bkt.clouddn.com/base.js";
+    //console.log(file, directory);
+    // switch(file){
+    //     case 'src/script/lib/require.min.js':
+    //         return "http://js.ercilan.cn/require.min.js";
+    // }
     return 'https://cdn.jsdelivr.net/gh/' + (window.cnblogsConfig.GhUserName) + '/' + (window.cnblogsConfig.GhRepositories) + '@' + (window.cnblogsConfig.GhVersions) + '/' + (file ? file : '');
 }
 

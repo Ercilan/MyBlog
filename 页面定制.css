@@ -131,16 +131,16 @@ a {
 
 a:link,a:visited {
 	color: #5c8ec6;
-	text-decoration: none !important
+	text-decoration: none
 }
 
 a:hover {
 	color: #f60;
-	text-decoration: none !important
+	text-decoration: none
 }
 
 a:active {
-	text-decoration: none !important
+	text-decoration: none
 }
 
 .clear {
@@ -186,6 +186,24 @@ b {
 #header {
 	padding-bottom: 5px;
 	margin-top: 10px
+}
+
+.top-navbar {
+    background-color: #807dd4;
+    width: 135px;
+    height: 55px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+	box-shadow: 0px 2px 5px #888;
+	display: none;
+	z-index: 4
+}
+.top-menu {
+	background: #0000 !important;
+	border: 1px solid rgba(255,255,255,.6) !important;
+	border-radius: 3px !important;
+	color: #fff
 }
 
 #blogTitle {
@@ -2368,9 +2386,6 @@ blockquote.bq_post_comment {
 	height: 34px;
 	font-size: 34px;
 	text-align: center;
-	-webkit-transform: rotate(-90deg);
-	-ms-transform: rotate(-90deg);
-	transform: rotate(-90deg);
 	-webkit-animation: bounce 4s 2s infinite;
 	animation: bounce 4s 2s infinite;
 	text-decoration: none!important
@@ -2397,35 +2412,35 @@ blockquote.bq_post_comment {
 
 @-webkit-keyframes bounce {
 	0%,10%,25%,40%,50% {
-		-webkit-transform: translateY(0) rotate(-90deg);
-		transform: translateY(0) rotate(-90deg)
+		-webkit-transform: translateY(0);
+		transform: translateY(0)
 	}
 
 	20% {
-		-webkit-transform: translateY(-10px) rotate(-90deg);
-		transform: translateY(-10px) rotate(-90deg)
+		-webkit-transform: translateY(-10px);
+		transform: translateY(-10px)
 	}
 
 	30% {
-		-webkit-transform: translateY(-5px) rotate(-90deg);
-		transform: translateY(-5px) rotate(-90deg)
+		-webkit-transform: translateY(-5px);
+		transform: translateY(-5px)
 	}
 }
 
 @keyframes bounce {
 	0%,10%,25%,40%,50% {
-		-webkit-transform: translateY(0) rotate(-90deg);
-		transform: translateY(0) rotate(-90deg)
+		-webkit-transform: translateY(0);
+		transform: translateY(0)
 	}
 
 	20% {
-		-webkit-transform: translateY(-10px) rotate(-90deg);
-		transform: translateY(-10px) rotate(-90deg)
+		-webkit-transform: translateY(-10px);
+		transform: translateY(-10px)
 	}
 
 	30% {
-		-webkit-transform: translateY(-5px) rotate(-90deg);
-		transform: translateY(-5px) rotate(-90deg)
+		-webkit-transform: translateY(-5px);
+		transform: translateY(-5px)
 	}
 }
 
@@ -2458,9 +2473,8 @@ blockquote.bq_post_comment {
 }
 
 .menu-button-scroll {
-	background: #222!important;
-	left: -20px!important;
-	width: 35px!important
+	left: 16px!important;
+	width: 100px!important
 }
 
 .m-list-title {
@@ -2472,15 +2486,15 @@ blockquote.bq_post_comment {
 	display: none
 }
 
-.m-list-title-select {
+.m-list-title-sorting {
 	color: #888;
 	font-size: 22px!important;
 	position: absolute;
 	right: -7px;
-	top: 1px
+	top: 2px
 }
 
-.m-list-title-select:hover {
+.m-list-title-sorting:hover {
 	color: #b8b8b8;
 	cursor: pointer
 }
@@ -2721,7 +2735,7 @@ div#rightMenu>div {
 	display: none
 }
 
-#rightDiggit .rightMenuSpan,#rightDiggit .rightMenuSpan,#rightBuryit .rightMenuSpan,#attention .rightMenuSpan,#toUpDown .rightMenuSpan {
+#rightDiggit .rightMenuSpan,#rightDiggit .rightMenuSpan,#rightBuryit .rightMenuSpan,#goHome .rightMenuSpan,#attention .rightMenuSpan,#toUpDown .rightMenuSpan {
 	position: absolute;
 	left: -95px;
 	font-size: 14px;
@@ -2741,7 +2755,7 @@ div#rightMenu>div {
 	display: none
 }
 
-#rightDiggit .rightMenuSpan::before,#rightDiggit .rightMenuSpan::before,#rightBuryit .rightMenuSpan::before,#attention .rightMenuSpan::before,#toUpDown .rightMenuSpan::before {
+#rightDiggit .rightMenuSpan::before,#rightDiggit .rightMenuSpan::before,#rightBuryit .rightMenuSpan::before,#goHome .rightMenuSpan::before,#attention .rightMenuSpan::before,#toUpDown .rightMenuSpan::before {
 	background-attachment: scroll;
 	background-clip: border-box;
 	background-color: #1b1c1d;
@@ -3152,11 +3166,11 @@ span.cnblogs_code {
 	font-size: 14px;
 	padding: 0 0 0 2px;
 	border: 0;
-	border-radius: 6px;
+	border-radius: 4px;
 	color: #ccc;
 	opacity: 0;
 	visibility: hidden;
-	background-color: hsla(0,0%,90.2%,.2);
+	background-color: hsla(0, 0%, 71.4%, .2);
 	-webkit-user-select: none;
 	-moz-user-select: none;
 	-ms-user-select: none;
@@ -4290,7 +4304,12 @@ table#blogCalendar>tbody>tr>td>a {
 		max-height: 50vh;
 		padding: 0
 	}
-
+	.top-navbar {
+		width: 100%
+	}
+	#sideCatalog {
+		top: 55px;
+	}
 	#home {
 		width: auto
 	}
@@ -4387,9 +4406,11 @@ table#blogCalendar>tbody>tr>td>a {
 	}
 
 	.menu-button-scroll {
-		background: #222!important;
-		left: -8px!important;
-		width: 31px!important
+		background: #0000!important;
+		border: 1px solid rgba(255,255,255,.6)!important;
+		border-radius: 3px!important;
+		left: 16px!important;
+		width: 90px!important
 	}
 
 	.comment_date,#aplayer,#bgCanvas,#canvas,#evanyou,#homeTopCanvas,#music-box,#notHomeTopCanvas,#pageAnimationOffOn,.essaySuffix-box-left,.scroll-down,body>meting-js {
