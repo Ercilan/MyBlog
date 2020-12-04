@@ -96,7 +96,7 @@ window.cnblogsConfigDefault = {
     GhVersions: 'dev',
     CnVersions: "",
     blogUser: "二次蓝",
-    blogAvatar: "https://pic.cnblogs.com/face/2224860/20201124182444.png",
+    blogAvatar: "https://pic.cnblogs.com/avatar/2224860/20201204114200.png",
     blogStartDate: "2020-11-24",
     menuCustomList: { // 左侧下面导航
         "书签组": { // 标题
